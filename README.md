@@ -50,6 +50,7 @@
 :heavy_check_mark: 1º Calcular o que deseja;
 
 
+
 ## :rocket: Tecnologias ##
  
  
