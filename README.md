@@ -48,7 +48,7 @@
 
 
 :heavy_check_mark: Calcular IMC;\
-:heavy_check_mark: Usar como aplicativo desktop no seu computador;\
+:heavy_check_mark: Usar como aplicativo desktop no seu computador;
 
 
 ## :rocket: Tecnologias ##
