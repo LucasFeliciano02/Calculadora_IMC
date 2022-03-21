@@ -47,8 +47,8 @@
 ## :sparkles: Funcionalidades ##
 
 
-:heavy_check_mark: 1º Calcular o que deseja;
-
+:heavy_check_mark: Calcular IMC;\
+:heavy_check_mark: Usar como aplicativo desktop no seu computador;\
 
 
 ## :rocket: Tecnologias ##
