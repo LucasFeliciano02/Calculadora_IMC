@@ -65,7 +65,7 @@ As seguintes ferramentas 🛠 foram utilizadas na construção do projeto:
       <td>Python</td>
     </tr>
     <tr>
-      <td>PyQt5</td>
+      <td>Tkinter</td>
     </tr> 
 	    
   </tbody>
