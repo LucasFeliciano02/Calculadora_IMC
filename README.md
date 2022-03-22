@@ -97,9 +97,9 @@ Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Cod
  -> terminal -> pip install tkinter
 
 # Colocar os seguintes comandos no terminal para ativar o Interpretador do python a fim de rodar o arquivo
- 1º ->  py -m venv venv
- 2º ->  venv\Scripts\activate.bat  
- 3º -> .\venv\Scripts\activate.bat  
+ 1º  ->  py -m venv venv
+ 2º  ->  venv\Scripts\activate.bat  
+ 3º  ->  .\venv\Scripts\activate.bat  
 
 ```
 
