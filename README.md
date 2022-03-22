@@ -94,7 +94,7 @@ Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Cod
  -> mouse esquerdo -> Abrir com Code
 
 # Baixar Run Code em extensões, pyqt5 no terminal e DESFRUTAR DO CÓDIGO
- -> terminal -> pip install pyqt5
+ -> terminal -> pip install tkinter
 
 ```
 
