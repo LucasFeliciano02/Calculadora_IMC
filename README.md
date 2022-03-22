@@ -9,7 +9,7 @@
 
 
 <div align="center" id="top">
-  <img alt="Calculadora" title="Calculadora" src="./Calculadora_PyQT5.PNG"/>
+  <img alt="Calculadora" title="Calculadora" src="./imc.gif"/>
 </h1>
 
  
