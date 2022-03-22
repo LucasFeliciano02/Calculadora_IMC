@@ -41,15 +41,15 @@
 ## :dart: Sobre ##
 
 ```sh
-• Calculadora feita com interface gráfica do python!, algumas coisas foram customizadas para não ficar 100% igual ao curso
+• Calculadora IMC feita com interface gráfica do python: Tkinter 
 ```
 
 ## :sparkles: Funcionalidades ##
 
 
 :heavy_check_mark: Calcular IMC;\
-:heavy_check_mark: Usar como aplicativo desktop no seu computador;
-
+:heavy_check_mark: Usar como aplicativo desktop no seu computador;\
+:heavy_check_mark: Em breve disponibilizarei o executável
 
 ## :rocket: Tecnologias ##
  
