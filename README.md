@@ -47,7 +47,7 @@
 ## :sparkles: Funcionalidades ##
 
 
-:heavy_check_mark: Calcular IMC;\
+:heavy_check_mark: Calcular seu IMC colocando seu peso sua altura em metros ;\
 :heavy_check_mark: Usar como aplicativo desktop no seu computador;\
 :heavy_check_mark: Em breve disponibilizarei o executável
 
