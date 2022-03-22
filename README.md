@@ -88,7 +88,7 @@ Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Cod
 ```bash
 # Clone este repositorio
  -> git bash here
-  $ git clone https://github.com/LucasFeliciano02/PyQT5_Calculadora.git
+  $ https://github.com/LucasFeliciano02/Calculadora_IMC-GUI.git
 
 # Acesse a pasta do projeto que aparecerá em sua área de trabalho
  -> mouse esquerdo -> Abrir com Code
