@@ -24,13 +24,13 @@ style.theme_use('clam')
 
 def calcular():
     try:
-        peso = float(entry_peso.get())
-        altura = float(entry_altura.get())
+        peso = float(entry_peso.get())  # * a entry.get recebe as informações, processa e envia para uma label['text'] vazia que é onde aparecera o resultado da conta
+        altura = float(entry_altura.get().replace(',', '.'))  # * recebe numa entry os valores e envia numa label o resultado 
 
         imc = peso / (altura ** 2)
-
+ 
         resultado = imc
-
+    
         if resultado <= 18.5:
             label_imc_texto['text'] = 'Seu IMC é:  Abaixo do peso'
         elif 18.5 <= resultado <= 24.99:
@@ -46,16 +46,16 @@ def calcular():
 
         entry_peso.delete(0, "end")
         entry_altura.delete(0, "end")
-
+        
     except:
         messagebox.showinfo(
-            'Atenção!', 'Preencha todos os campos com seus respectivos atributos\n')
+            'Atenção!', 'Preencha todos os campos com seus respectivos atributos e altura deve ser em metros com ponto.\n')
         return
+
+    
+    label_resultado['text'] = '{:.{}f}'.format(resultado, 2).replace(',', '.')  # conta: vai no quadrado azul o imc, conforme as numeros enviados nas entrys altura e peso
     
     
-    label_resultado['text'] = '{:.{}f}'.format(resultado, 2)
-
-
 # ------- Frames cima e baixo --------
 
 frame_cima = Frame(janela, width=325, height=50, bg=cor0,
@@ -89,13 +89,33 @@ entry_peso = Entry(janela, width=5, relief='solid',
 entry_peso.place(x=150, y=67)
 
 
+
 label_altura = Label(janela, text=' Insira altura em M:', height=1, padx=0,
                      relief='flat', font='Ivy 11 bold', anchor='center', bg=cor0, fg=cor1)
 label_altura.place(x=2, y=110)
 
+
+#*
+def format_imc(event=None):
+    text = entry_altura.get().replace(".", "").replace("-", "")[:4]
+    new_text = ""
+
+    if event.keysym.lower() == "backspace": return
+    
+    for index in range(len(text)):
+        
+        if not text[index] in "0123456789": continue
+        if index in [0, 1]: new_text += text[index] + ","
+        else: new_text += text[index]
+
+    entry_altura.delete(0, "end")
+    entry_altura.insert(0, new_text)
+
+
 entry_altura = Entry(janela, width=5, relief='solid',
                      font='Ivy 10 bold', justify='center')
 entry_altura.place(x=150, y=112)
+entry_altura.bind("<KeyRelease>", format_imc)
 
 
 # ------- Quadrado Resultado do calculo do IMC --------
