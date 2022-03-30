@@ -2,7 +2,7 @@
 
 <!-- <h4 align="center"> 
 ---
-	🚧  Projeto Redimensionador 🚀 Em construção...  🚧
+	🚧  Projeto Calculadora imc 🚀 Em construção...  🚧
 </h4> 
 
 <hr> -->
