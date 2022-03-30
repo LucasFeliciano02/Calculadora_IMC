@@ -50,6 +50,8 @@ def calcular():
     except:
         messagebox.showinfo(
             'Atenção!', 'Preencha todos os campos com seus respectivos atributos e altura deve ser em metros com ponto.\n')
+        entry_peso.delete(0, "end")
+        entry_altura.delete(0, "end")
         return
 
     
