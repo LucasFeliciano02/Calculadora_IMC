@@ -8,7 +8,7 @@
 <hr> -->
 
 
-<br>
+
 
 <div align="center" id="top">
   <img alt="Calculadora" title="Calculadora" src="./imc.gif"/>
